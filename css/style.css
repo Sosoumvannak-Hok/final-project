@@ -1,5 +1,149 @@
-* {
+body {
     padding: 0%;
     margin: 0%;
     display: block;
 }
+
+header {
+    background-color: aqua;
+}
+
+header nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+}
+
+header nav a {
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+}
+
+header nav a:hover {
+    background-color: white;
+}
+
+main {
+    background-color: violet;
+}
+
+main h1 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0%;
+}
+
+main p {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+}
+
+#index .hero {
+    display: flex;
+    max-width: 1280px;
+    padding: 100px 0px;
+    margin: auto;
+}
+
+#index .hero h1 {
+    font-size: 64px;
+    padding: 25px 50px;
+}
+
+#index .hero p {
+    font-size: 24px;
+    padding: 0px 50px;
+}
+
+#index .to-go {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+#index .to-go h1 {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 64px;
+    padding: 25px 0px;
+}
+
+#index .to-go p {
+    font-size: 24px;
+}
+
+#index .to-go article {
+    margin: 0px 25px;
+    background-color: antiquewhite;
+}
+
+#index .to-go article p {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+#about section {
+    max-width: 1340px;
+    margin: auto;
+}
+
+#about section h1 {
+    font-size: 64px;
+}
+
+#about table {
+    border-collapse: collapse;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+#about tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#about th {
+    border: 1px solid #dddddd;
+    padding: 25px;
+}
+
+#about td {
+    border: 1px solid #dddddd;
+    padding: 25px;
+}
+
+footer {
+    background-color: tomato;
+    padding: 25px 0px;
+}
+
+footer i {
+    font-size: 64px;
+}
+
+/* footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+}
+
+footer nav a i {
+    font-size: 64px;
+}
+
+footer nav p {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0%;
+}
+
+footer .copyright {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1280px;
+    margin: auto;
+} */
