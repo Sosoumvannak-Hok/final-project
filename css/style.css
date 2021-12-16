@@ -5,34 +5,41 @@ body {
 }
 
 header {
-    background-color: aqua;
+    background-color: #2b2d42;
 }
 
 header nav {
     display: flex;
-    justify-content: end;
     align-items: center;
+    justify-content: space-between;
     max-width: 1280px;
     margin: auto;
 }
 
-header nav a {
-    color: black;
+header .links {
+    display: flex;
+    /* justify-content: end; */
+    align-items: center;
+}
+
+header .links a {
+    color: #edf2f4;
     padding: 25px;
     text-decoration: none;
     font-family: 'Bebas Neue', cursive;
     font-size: 24px;
 }
 
-header nav a:hover {
-    background-color: white;
+header .links a:hover {
+    background-color: #d90429;
 }
 
 main {
-    background-color: violet;
+    background-color: #8d99ae;
 }
 
 main h1 {
+    font-size: 64px;
     font-family: 'Bebas Neue', cursive;
     margin: 0%;
 }
@@ -45,7 +52,7 @@ main p {
 #index .hero {
     display: flex;
     max-width: 1280px;
-    padding: 100px 0px;
+    padding: 250px 0px;
     margin: auto;
 }
 
@@ -55,7 +62,7 @@ main p {
 }
 
 #index .hero p {
-    font-size: 24px;
+    font-size: 18px;
     padding: 0px 50px;
 }
 
@@ -94,6 +101,32 @@ main p {
 
 #about section h1 {
     font-size: 64px;
+    padding: 100px 0px 25px 0px;
+    text-align: center;
+}
+
+#about section p {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#about section .steam-game-container,
+#about section .spotify-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 50px 0px;
+}
+
+#about .mapouter {
+    margin: auto;
+    padding: 50px 0px;
+}
+
+#about .pc-build {
+    padding-bottom: 100px;
 }
 
 #about table {
@@ -116,13 +149,49 @@ main p {
     padding: 25px;
 }
 
+#portfolio section {
+    max-width: 1280px;
+    margin: auto;
+}
+
+#portfolio section h1 {
+    font-size: 64px;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+#contact h1 {
+    max-width: 1240px;
+    padding: 125px 0px 25px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 1240px;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
 footer {
-    background-color: tomato;
+    color: white;
+    background-color: #ef233c;
+    font-family: 'Open Sans', sans-serif;
     padding: 25px 0px;
 }
 
+footer .flex-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+}
+
 footer i {
-    font-size: 64px;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding-right: 10px;
 }
 
 /* footer nav {
